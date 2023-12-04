@@ -1,0 +1,36 @@
+body {
+  background: #e7e7e7;
+  padding: 2rem 0;
+}
+
+.page .container {
+  padding: 2rem;
+  background: #ffffff;
+}
+
+header.main ul {
+  display: flex;
+  justify-content: center;
+}
+header.main li {
+  list-style-type: none;
+}
+
+header.main li a {
+  padding: 0 1.5rem;
+  display: block;
+}
+
+
+.featured-image {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  height: 50vh;
+  object-position: center;
+  object-fit: cover;
+}
+img:not([alt]) {
+  filter: blur(0.5);
+  -webkit-filter: blur(0.5);
+}
